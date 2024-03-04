@@ -2,36 +2,66 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding:0;
 }
 
 body {
-	font-family: "Noto Sans Javanese", "Arial", sans-serif;
+	font-family: "Noto Sans Javanese", "Yogyakarta", "Arial", "Javanese Text", sans-serif;
 	background-color: #D7E6F0;
 }
 
 h1 {
 	text-align: center;
+	margin: 30px 0px;
+	font-size: 175%;
 }
 
 h2 {
+	max-width: 75%;
+	float: right;
 	text-align: right;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	margin-top: -5px;
+	margin-right: -5px;
+	border: 1px solid black;
+	font-size: 125%;
+}
+
+#t1 {
 	background-color: #96C8FA;
-	padding: 2px;
+}
+
+#t2 {
+	background-color: #FFD296;
+}
+
+#t3 {
+	background-color: #FFDC0A;
+}
+
+p {
+	clear: right;
 }
 
 div {
-	margin-bottom: 15px;
-	margin-right: 10px;
+	padding: 4px;
 }
 
 .row {
 	width: 100%;
 }
 
+.kartu {
+	margin: 10px;
+	border: 1px solid black;
+}
+
 .col-lg-4, .col-md-6, .col-md-12 {
 	width: 100%;
 	float: left;
-	border: 1px solid black;
+	margin-bottom: 15px;
 }
 
 @media (min-width: 1200px) {
