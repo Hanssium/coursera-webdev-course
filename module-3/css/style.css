@@ -1,0 +1,82 @@
+/* Module 3 CSS */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+body {
+	font-family: "Noto Sans Javanese", "Yogyakarta", "Arial", "Javanese Text", sans-serif;
+	background-color: #D7E6F0;
+}
+
+h1 {
+	font-size: 175%;
+}
+
+h3 {
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	font-size: 125%;
+}
+
+p {
+	clear: right;
+}
+
+div {
+	padding: 4px;
+}
+
+.kartu {
+	margin: 10px;
+	border: 2px solid black;
+	background-color: lightgoldenrodyellow;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover, nav a:focus {
+	color: darkgray;
+}
+
+.navbar-brand {
+	background-color: chartreuse;
+	border-bottom: 4px solid black;
+	margin-bottom: 20px;
+	padding: 30px 0px 0px 30px;
+}
+
+li > a {
+	text-align: center;
+}
+
+/*
+.col {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+*/
+
+/*
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-md-6 {
+		width: 50%;
+	}
+	
+	.col-md-12 {
+		width: 100%;
+	}
+}
+*/
